@@ -1,0 +1,26 @@
+{
+    "name": "personaliza/Auth",
+    "description": "Auth plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": "3.3.*",
+        "cakephp/plugin-installer": "*",
+        "firebase/php-jwt": "~4.0",
+        "admad/cakephp-jwt-auth": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TAuth\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TAuth\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
