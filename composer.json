@@ -1,5 +1,5 @@
 {
-    "name": "rederlo/Auth",
+    "name": "rederlo/TAuth",
     "description": "Auth plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
